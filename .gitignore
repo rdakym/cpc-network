@@ -1,0 +1,43 @@
+# 가상환경
+venv/
+env/
+ENV/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 생성된 분석 결과 파일
+keyword_similarity_matrix.csv
+top_similar_pairs.csv
+keyword_embeddings.npy
+processed_keywords.txt
+
+# 생성된 시각화 파일
+*.png
+*.html
+!README.md
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 모델 캐시 (Sentence Transformers)
+.cache/
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로그
+*.log
